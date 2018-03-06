@@ -1,5 +1,1484 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Bar Shallow render of the Bar with all props. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="green"
+    percent={32}
+    style={
+      Object {
+        "height": 50,
+      }
+    }
+    text="Foobar"
+    textColor="red"
+    textStyle={
+      Object {
+        "color": "blue",
+        "fontSize": 24,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "height": 50,
+            "width": "32%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "green",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>,
+        "style": Object {
+          "height": 50,
+          "width": "32%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Foobar",
+          "style": Object {
+            "color": "red",
+            "fontFamily": "sans-serif",
+            "fontSize": 24,
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "Foobar",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "height": 50,
+              "width": "32%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "green",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>,
+          "style": Object {
+            "height": 50,
+            "width": "32%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Foobar",
+            "style": Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "Foobar",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with bar color. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="red"
+    percent={100}
+    style={Object {}}
+    text=""
+    textColor="#2E2E2E"
+    textStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "red",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>,
+        "style": Object {
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "style": Object {
+            "color": "#2E2E2E",
+            "fontFamily": "sans-serif",
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "red",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>,
+          "style": Object {
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "style": Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with custom text and styling. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={100}
+    style={Object {}}
+    text="Foobar"
+    textColor="#2E2E2E"
+    textStyle={
+      Object {
+        "fontSize": 24,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>,
+        "style": Object {
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Foobar",
+          "style": Object {
+            "color": "#2E2E2E",
+            "fontFamily": "sans-serif",
+            "fontSize": 24,
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "Foobar",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>,
+          "style": Object {
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Foobar",
+            "style": Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "Foobar",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with custom text, styling and color. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={100}
+    style={Object {}}
+    text="Foobar"
+    textColor="red"
+    textStyle={
+      Object {
+        "fontSize": 24,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>,
+        "style": Object {
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Foobar",
+          "style": Object {
+            "color": "red",
+            "fontFamily": "sans-serif",
+            "fontSize": 24,
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "Foobar",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>,
+          "style": Object {
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Foobar",
+            "style": Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "Foobar",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with custom text, styling and color. Overriding color. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={100}
+    style={Object {}}
+    text="Foobar"
+    textColor="red"
+    textStyle={
+      Object {
+        "color": "blue",
+        "fontSize": 24,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>,
+        "style": Object {
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Foobar",
+          "style": Object {
+            "color": "red",
+            "fontFamily": "sans-serif",
+            "fontSize": 24,
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "Foobar",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "sans-serif",
+                "fontSize": 24,
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>,
+          "style": Object {
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Foobar",
+            "style": Object {
+              "color": "red",
+              "fontFamily": "sans-serif",
+              "fontSize": 24,
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "Foobar",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with custom text. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={100}
+    style={Object {}}
+    text="Foobar"
+    textColor="#2E2E2E"
+    textStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Foobar
+        </p>,
+        "style": Object {
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Foobar",
+          "style": Object {
+            "color": "#2E2E2E",
+            "fontFamily": "sans-serif",
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "Foobar",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            Foobar
+          </p>,
+          "style": Object {
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Foobar",
+            "style": Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "Foobar",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar with styling. 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={100}
+    style={
+      Object {
+        "backgroundColor": "#2e2e2e",
+      }
+    }
+    text=""
+    textColor="#2E2E2E"
+    textStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "backgroundColor": "#2e2e2e",
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>,
+        "style": Object {
+          "backgroundColor": "#2e2e2e",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "style": Object {
+            "color": "#2E2E2E",
+            "fontFamily": "sans-serif",
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "backgroundColor": "#2e2e2e",
+              "width": "100%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>,
+          "style": Object {
+            "backgroundColor": "#2e2e2e",
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "style": Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
 exports[`Bar Shallow render of the Bar. Basic render, no props. 1`] = `
 ShallowWrapper {
   "length": 1,
@@ -164,6 +1643,209 @@ ShallowWrapper {
           </p>,
           "style": Object {
             "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "style": Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            },
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Bar Shallow render of the Bar. Basic render, no props. 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bar
+    barColor="#ffffff"
+    percent={32}
+    style={Object {}}
+    text=""
+    textColor="#2E2E2E"
+    textStyle={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "width": "32%",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>
+      </div>,
+      "style": Object {
+        "backgroundColor": "#ffffff",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          style={
+            Object {
+              "color": "#2E2E2E",
+              "fontFamily": "sans-serif",
+              "marginBottom": 0,
+              "marginTop": 0,
+              "paddingBottom": 3,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 3,
+            }
+          }
+        >
+          
+        </p>,
+        "style": Object {
+          "width": "32%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "style": Object {
+            "color": "#2E2E2E",
+            "fontFamily": "sans-serif",
+            "marginBottom": 0,
+            "marginTop": 0,
+            "paddingBottom": 3,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 3,
+          },
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "p",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "width": "32%",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>
+        </div>,
+        "style": Object {
+          "backgroundColor": "#ffffff",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            style={
+              Object {
+                "color": "#2E2E2E",
+                "fontFamily": "sans-serif",
+                "marginBottom": 0,
+                "marginTop": 0,
+                "paddingBottom": 3,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 3,
+              }
+            }
+          >
+            
+          </p>,
+          "style": Object {
+            "width": "32%",
           },
         },
         "ref": null,
