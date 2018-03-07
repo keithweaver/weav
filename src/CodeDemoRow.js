@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 
 import CodeDemoMenu from './CodeDemoMenu';
 
+const wrapperStyle = {
+  maxWidth: 900,
+  width: '100%',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
 class CodeDemoRow extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +30,7 @@ class CodeDemoRow extends Component {
     ];
 
     return (
-      <div>
+      <div style={wrapperStyle}>
         <div>
           <CodeDemoMenu
             uiComponents={uiComponents}
