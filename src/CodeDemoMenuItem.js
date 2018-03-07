@@ -19,12 +19,13 @@ const CodeDemoMenuItem = (props) => {
   const {
     uiComponent,
     onUIComponentChange,
+    width,
   } = props;
 
   return (
     <button
       onClick={() => onUIComponentChange(uiComponent)}
-      style={objectAssign({}, btnStyle)}
+      style={objectAssign({}, btnStyle, { width })}
     >
       {uiComponent}
     </button>
