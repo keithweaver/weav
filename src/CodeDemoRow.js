@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import CodeDemoMenu from './CodeDemoMenu';
+
 class CodeDemoRow extends Component {
   constructor(props) {
     super(props);
