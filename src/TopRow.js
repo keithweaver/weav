@@ -3,7 +3,7 @@ import React from 'react';
 const wrapperStyle = {
   textAlign: 'center',
   paddingTop: '10%',
-  paddingBottom: '100%',
+  paddingBottom: '10%',
 };
 const titleStyle = {
   fontFamily: '"Poppins", sans-serif',

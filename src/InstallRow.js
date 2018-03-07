@@ -13,8 +13,9 @@ const wrapperStyle = {
 };
 const textStyle = {
   fontSize: 12,
-  color: '#2e2e2e',
-  paddingBottom: 10,
+  color: '#D8D8D8',
+  paddingBottom: 15,
+  fontFamily: '"Source Sans Pro", sans-serif',
 };
 const codeStyle = {
   backgroundColor: '#f1f1f1',
