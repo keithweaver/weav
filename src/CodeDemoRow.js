@@ -19,6 +19,7 @@ class CodeDemoRow extends Component {
     const uiComponents = [
       'Textbox'
     ];
+
     return (
       <div>
         <div>
