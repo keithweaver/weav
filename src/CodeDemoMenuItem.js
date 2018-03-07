@@ -22,10 +22,12 @@ const CodeDemoMenuItem = (props) => {
     width,
   } = props;
 
+  console.log('width', width);
+
   return (
     <button
       onClick={() => onUIComponentChange(uiComponent)}
-      style={objectAssign({}, btnStyle, { width })}
+      style={objectAssign({}, btnStyle, { width: `${width}%` })}
     >
       {uiComponent}
     </button>
