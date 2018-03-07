@@ -7,7 +7,7 @@ const btnStyle = {
   borderTopWidth: 0,
   borderBottomWidth: 3,
   borderColor: '#31B404',
-  paddingTop: 5,
+  paddingTop: 10,
   paddingBottom: 5,
   paddingLeft: 15,
   paddingRight: 15,

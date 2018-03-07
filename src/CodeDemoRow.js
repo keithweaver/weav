@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import CodeDemoMenu from './CodeDemoMenu';
+import CodeDemoResult from './CodeDemoResult';
+import CodeDemoSnippet from './CodeDemoSnippet';
 
 const wrapperStyle = {
   maxWidth: 900,
@@ -36,6 +38,10 @@ class CodeDemoRow extends Component {
             uiComponents={uiComponents}
             onUIComponentChange={this.onUIComponentChange}
           />
+        </div>
+        <div>
+          <CodeDemoResult />
+          <CodeDemoSnippet />
         </div>
       </div>
     );

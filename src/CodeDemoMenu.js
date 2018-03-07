@@ -7,7 +7,7 @@ const CodeDemoMenu = (props) => {
     uiComponents,
     onUIComponentChange,
   } = props;
-  const itemWidth = 100 / uiComponents;
+  const itemWidth = 100 / uiComponents.length;
 
   return (
     <div>
