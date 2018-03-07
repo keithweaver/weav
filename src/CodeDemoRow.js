@@ -34,3 +34,5 @@ class CodeDemoRow extends Component {
     );
   }
 }
+
+export default CodeDemoRow;
