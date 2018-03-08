@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {
+  Textbox,
+} from './'
 
 import CodeDemoMenu from './CodeDemoMenu';
 import CodeDemoResult from './CodeDemoResult';
@@ -11,12 +14,23 @@ const wrapperStyle = {
   marginRight: 'auto',
 };
 
+const uiComponentInfo = {
+  textbox: {
+    result: (
+      <div>
+        <Textbox/>
+      </div>
+    ),
+    snippet: '',
+  },
+};
+
 class CodeDemoRow extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      uiComp: '',
+      uiComponent: '',
     };
 
     this.onUIComponentChange = this.onUIComponentChange.bind(this);
@@ -28,8 +42,17 @@ class CodeDemoRow extends Component {
 
   render() {
     const uiComponents = [
-      'Textbox'
+      'textbox'
     ];
+
+    const content = (
+      <div>
+        <CodeDemoResult
+          result={uiComponentInfo['textbox']}
+        />
+        <CodeDemoSnippet />
+      </div>
+    );
 
     return (
       <div style={wrapperStyle}>
@@ -39,10 +62,7 @@ class CodeDemoRow extends Component {
             onUIComponentChange={this.onUIComponentChange}
           />
         </div>
-        <div>
-          <CodeDemoResult />
-          <CodeDemoSnippet />
-        </div>
+        {content}
       </div>
     );
   }

@@ -1,9 +1,13 @@
 import React from 'react';
 
-const CodeDemoResult = () => {
+const CodeDemoResult = (props) => {
+  const {
+    result,
+  } = props;
+
   return (
     <div>
-      <p>Result</p>
+      {result}
     </div>
   );
 };
