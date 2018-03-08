@@ -5,6 +5,8 @@ const CodeDemoResult = (props) => {
     result,
   } = props;
 
+  console.log('result', result);
+
   return (
     <div>
       {result}
