@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   Textbox,
-} from './'
+} from 'weav';
 
 import CodeDemoMenu from './CodeDemoMenu';
 import CodeDemoResult from './CodeDemoResult';
@@ -18,7 +18,7 @@ const uiComponentInfo = {
   textbox: {
     result: (
       <div>
-        <Textbox/>
+        <Textbox />
       </div>
     ),
     snippet: '',
