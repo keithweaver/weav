@@ -48,7 +48,7 @@ class CodeDemoRow extends Component {
     const content = (
       <div>
         <CodeDemoResult
-          result={uiComponentInfo['textbox']}
+          result={uiComponentInfo['textbox'].result}
         />
         <CodeDemoSnippet />
       </div>
