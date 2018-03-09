@@ -6,7 +6,8 @@
   "dependencies": {
     "object-assign": "^4.1.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "weav": "^1.0.2"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
