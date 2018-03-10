@@ -6,6 +6,10 @@ import 'brace/theme/github';
 
 const wrapperStyle = {
   width: '100%',
+  paddingLeft: 15,
+  paddingRight: 15,
+  paddingBottom: 20,
+  paddingTop: 10,
 };
 
 
