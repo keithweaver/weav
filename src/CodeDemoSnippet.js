@@ -19,6 +19,9 @@ const CodeDemoSnippet = (props) => {
         onChange={onChange}
         name="aceeditor_id"
         value={snippet}
+        showLineNumbers={false}
+        fontSize={14}
+        showGutter={false}
       />
     </div>
   );

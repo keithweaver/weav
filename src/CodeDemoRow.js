@@ -37,7 +37,7 @@ const uiComponentInfo = {
 
 const findProps = (s) => {
   let snippet = _.replace(s, /<Textbox/g, '');
-  snippet = _.replace(snippet, />/g, '');
+  snippet = _.replace(snippet, /\/>/g, '');
   snippet = _.replace(snippet, /\n/g, '');
 
   const props = {};
