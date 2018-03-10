@@ -29,8 +29,6 @@ const nameCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
-  fontSize: 12,
-  fontFamily: '"Source Sans Pro", sans-serif',
 };
 const defaultCellStyle = {
   width: '19%',
@@ -45,8 +43,6 @@ const defaultCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
-  fontSize: 12,
-  fontFamily: '"Source Sans Pro", sans-serif',
 };
 const typeCellStyle = {
   width: '19%',
@@ -61,8 +57,6 @@ const typeCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
-  fontSize: 12,
-  fontFamily: '"Source Sans Pro", sans-serif',
 };
 const descriptionCellStyle = {
   width: '29%',
@@ -77,6 +71,8 @@ const descriptionCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
+};
+const cellTextStyle = {
   fontSize: 12,
   fontFamily: '"Source Sans Pro", sans-serif',
 };
@@ -113,40 +109,48 @@ const CodeDemoDocs = (props) => {
               (propOptions).map(opt => (
                 <div style={tableRowStyle}>
                   <div style={nameCellStyle}>
-                    {
-                      (opt.prop) ? (
-                        opt.prop
-                      ) : (
-                        <span />
-                      )
-                    }
+                    <p style={cellTextStyle}>
+                      {
+                        (opt.prop) ? (
+                          opt.prop
+                        ) : (
+                          <span />
+                        )
+                      }
+                    </p>
                   </div>
                   <div style={defaultCellStyle}>
-                    {
-                      (opt.propDefault) ? (
-                        opt.propDefault
-                      ) : (
-                        <span />
-                      )
-                    }
+                    <p style={cellTextStyle}>
+                      {
+                        (opt.propDefault) ? (
+                          <p></p>opt.propDefault
+                        ) : (
+
+                        )
+                      }
+                    </p>
                   </div>
                   <div style={typeCellStyle}>
-                    {
-                      (opt.propType) ? (
-                        opt.propType
-                      ) : (
-                        <span />
-                      )
-                    }
+                    <p style={cellTextStyle}>
+                      {
+                        (opt.propType) ? (
+                          opt.propType
+                        ) : (
+                          <span />
+                        )
+                      }
+                    </p>
                   </div>
                   <div style={descriptionCellStyle}>
-                    {
-                      (opt.description) ? (
-                        opt.description
-                      ) : (
-                        <span />
-                      )
-                    }
+                    <p style={cellTextStyle}>
+                      {
+                        (opt.description) ? (
+                          opt.description
+                        ) : (
+                          <span />
+                        )
+                      }
+                    </p>
                   </div>
                 </div>
               ))
