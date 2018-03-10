@@ -17,7 +17,7 @@ const tableRowStyle = {
   width: '100%',
 };
 const nameCellStyle = {
-  width: '30%',
+  width: '29%',
   display: 'inline-block',
   paddingLeft: 2,
   paddingRight: 2,
@@ -25,7 +25,7 @@ const nameCellStyle = {
   paddingBottom: 3,
   borderBottomWidth: 1,
   borderRightWidth: 1,
-  borderLeftWidth: 0,
+  borderLeftWidth: 1,
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
@@ -72,7 +72,7 @@ const descriptionCellStyle = {
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
-  borderRightWidth: 0,
+  borderRightWidth: 1,
   borderLeftWidth: 0,
   borderTopWidth: 0,
   borderStyle: 'solid',
@@ -113,16 +113,40 @@ const CodeDemoDocs = (props) => {
               (propOptions).map(opt => (
                 <div style={tableRowStyle}>
                   <div style={nameCellStyle}>
-                    {opt.prop}
+                    {
+                      (opt.prop) ? (
+                        opt.prop
+                      ) : (
+                        &nbsp;
+                      )
+                    }
                   </div>
                   <div style={defaultCellStyle}>
-                    {opt.propDefault}
+                    {
+                      (opt.propDefault) ? (
+                        opt.propDefault
+                      ) : (
+                        &nbsp;
+                      )
+                    }
                   </div>
                   <div style={typeCellStyle}>
-                    {opt.propType}
+                    {
+                      (opt.propType) ? (
+                        opt.propType
+                      ) : (
+                        &nbsp;
+                      )
+                    }
                   </div>
                   <div style={descriptionCellStyle}>
-                    {opt.description}
+                    {
+                      (opt.description) ? (
+                        opt.description
+                      ) : (
+                        &nbsp;
+                      )
+                    }
                   </div>
                 </div>
               ))
