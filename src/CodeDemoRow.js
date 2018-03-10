@@ -61,6 +61,7 @@ const findProps = (s) => {
     const posEquals = snippet.indexOf('=');
     const key = snippet.substring(0, posEquals);
     let value = snippet.substring(posEquals + 1);
+    value = value.replace(/\s/g,'');
 
     console.log('value0', value);
     // Handles the case of foo={test} or foo={"bar"}
@@ -90,8 +91,9 @@ const findProps = (s) => {
 
     console.log('value4', value);
 
-
-    props[key] = value;
+    if (key && value) {
+      props[key] = value;
+    }
   }
 
   console.log('props', props);
