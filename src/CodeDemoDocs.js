@@ -35,6 +35,7 @@ const nameCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
+  width: '20%',
 };
 const defaultCellStyle = {
   display: 'table-cell',
@@ -48,6 +49,7 @@ const defaultCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
+  width: '15%',
 };
 const typeCellStyle = {
   display: 'table-cell',
@@ -61,6 +63,7 @@ const typeCellStyle = {
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
+  width: '15%',
 };
 const descriptionCellStyle = {
   display: 'table-cell',
