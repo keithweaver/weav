@@ -52,6 +52,7 @@ const findProps = (s) => {
   //
   // so now after code above is test={test}
   snippet = snippet.split(/[\t?\s]+/);
+  snippet = _.compact(snippet);
   console.log('snippet', snippet);
 
   return props;
