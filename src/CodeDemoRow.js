@@ -59,7 +59,14 @@ const findProps = (s) => {
     const snippet = snippets[i];
     const posEquals = snippet.indexOf('=');
     const key = snippet.substring(0, posEquals);
-    const value = snippet.substring(posEquals + 1);
+    let value = snippet.substring(posEquals + 1);
+
+    if (value.charAt(0) == "\"") {
+      value = value.substring(1);
+    }
+    if (value.charAt(value.length - 1) == "\"") {
+      value = value.substring(0, value.length - 1);
+    }
 
     props[key] = value;
   }
