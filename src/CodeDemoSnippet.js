@@ -40,9 +40,12 @@ const CodeDemoSnippet = (props) => {
         fontSize={14}
         showGutter={false}
         highlightActiveLine={false}
+        showPrintMargin={false}
         style={{
           width: '100%',
         }}
+        width="100%"
+        height="175px"
       />
     </div>
   );

@@ -2,8 +2,8 @@ import React from 'react';
 
 const wrapperStyle = {
   width: '100%',
-  paddingBottom: 20,
-  paddingTop: 10,
+  paddingBottom: 50,
+  paddingTop: 40,
   paddingLeft: 15,
   paddingRight: 15,
   borderColor: '#d8d8d8',
