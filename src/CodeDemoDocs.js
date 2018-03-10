@@ -16,6 +16,9 @@ const tableHeaderStyle = {
 const tableRowStyle = {
   width: '100%',
 };
+const headerCellStyle = {
+  borderTopWidth: 1,
+};
 const nameCellStyle = {
   width: '28%',
   display: 'inline-block',
@@ -92,16 +95,16 @@ const CodeDemoDocs = (props) => {
         (propOptions) ? (
           <div style={tableStyle}>
             <div style={tableHeaderStyle}>
-              <div style={nameCellStyle}>
+              <div style={objectAssign({}, nameCellStyle, headerCellStyle)}>
                 Prop
               </div>
-              <div style={defaultCellStyle}>
+              <div style={objectAssign({}, defaultCellStyle, headerCellStyle)}>
                 Default
               </div>
-              <div style={typeCellStyle}>
+              <div style={objectAssign({}, typeCellStyle, headerCellStyle)}>
                 Type
               </div>
-              <div style={descriptionCellStyle}>
+              <div style={objectAssign({}, descriptionCellStyle, headerCellStyle)}>
                 Description
               </div>
             </div>
@@ -123,9 +126,9 @@ const CodeDemoDocs = (props) => {
                     <p style={cellTextStyle}>
                       {
                         (opt.propDefault) ? (
-                          <p></p>opt.propDefault
+                          opt.propDefault
                         ) : (
-
+                          <span />
                         )
                       }
                     </p>
