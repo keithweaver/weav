@@ -55,7 +55,6 @@ const findProps = (s) => {
   // so now after code above is test={test}
   snippetStr = snippetStr.split(/[\t?\s]+/);
   const snippets = _.compact(snippetStr);
-  console.log('snippets', snippets);
 
   for (let i = 0; i < snippets.length; i += 1) {
     const snippet = snippets[i];
@@ -80,6 +79,8 @@ const findProps = (s) => {
 
     props[key] = value;
   }
+
+  console.log('props', props);
 
   return props;
 }
