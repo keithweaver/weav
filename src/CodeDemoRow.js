@@ -90,8 +90,10 @@ class CodeDemoRow extends Component {
     console.log('onUIComponentChange', uiComponent);
   }
 
-  onSnippetChange(event) {
-    console.log('onSnippetChange', event);
+  onSnippetChange(snippet) {
+    this.setState({
+      snippet,
+    });
   }
 
   render() {
