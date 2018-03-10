@@ -7,6 +7,8 @@ import _ from 'lodash';
 import CodeDemoMenu from './CodeDemoMenu';
 import CodeDemoResult from './CodeDemoResult';
 import CodeDemoSnippet from './CodeDemoSnippet';
+import CodeDemoDocs from './CodeDemoDocs';
+
 
 const wrapperStyle = {
   maxWidth: 900,
@@ -98,6 +100,35 @@ const getResultBySnippet = (type, snippet) => {
   }
 }
 
+const createPropDocStruc = (name, default, type, description) {
+  return {
+    prop: name,
+    default,
+    propType: type,
+    description,
+  };
+}
+
+const getPropDocs = (type) => {
+  switch (type) {
+    case 'textbox':
+      return [
+        createPropDocStruc('wrapperStyle', '{}', 'Object', '(Optional) Inline styling for the div around the textbox.'),
+        createPropDocStruc('style', '{}', 'Object', '(Optional) Inline styling for the textbox.'),
+        createPropDocStruc('textboxType', 'text', 'String', '(Optional) The type of textbox: text, email, date, etc.'),
+        createPropDocStruc('placeholder', '', 'String', '(Optional) The background text inside the textbox.'),
+        createPropDocStruc('id', 'text', 'String', '(Optional) The id on the textbox HTML element.'),
+        createPropDocStruc('maxLength', 'null', 'Number', '(Optional) The longest a text entry can be.'),
+        createPropDocStruc('onChange', '() => {}', 'Function', '(Optional) The function is call on the onChange passing the event through.'),
+        createPropDocStruc('onClickOutside', '() => {}', 'Function', '(Optional) The function is call when a user clicks outside the textbox.'),
+        createPropDocStruc('value', '', 'String', '(Optional) The value inside the textbox.'),
+      ];
+    default:
+      return null;
+  }
+}
+
+
 class CodeDemoRow extends Component {
   constructor(props) {
     super(props);
@@ -138,6 +169,9 @@ class CodeDemoRow extends Component {
         <CodeDemoSnippet
           onChange={this.onSnippetChange}
           snippet={snippet}
+        />
+        <CodeDemoDocs
+          propOptions={getPropDocs(uiComponent)}
         />
       </div>
     );
