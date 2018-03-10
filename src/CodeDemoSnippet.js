@@ -1,9 +1,19 @@
 import React from 'react';
+import AceEditor from 'react-ace';
 
-const CodeDemoSnippet = () => {
+import 'brace/mode/java';
+import 'brace/theme/github';
+
+
+const CodeDemoSnippet = (props) => {
   return (
     <div>
-      <p>Code Demo Snippet</p>
+      <AceEditor
+        mode="javascript"
+        theme="github"
+        onChange={props.onChange}
+        name="aceeditor_id"
+      />
     </div>
   );
 };
