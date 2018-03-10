@@ -17,10 +17,10 @@ const tableRowStyle = {
   width: '100%',
 };
 const nameCellStyle = {
-  width: '29%',
+  width: '28%',
   display: 'inline-block',
-  paddingLeft: 2,
-  paddingRight: 2,
+  paddingLeft: 5,
+  paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
@@ -33,10 +33,10 @@ const nameCellStyle = {
   fontFamily: '"Source Sans Pro", sans-serif',
 };
 const defaultCellStyle = {
-  width: '20%',
+  width: '19%',
   display: 'inline-block',
-  paddingLeft: 2,
-  paddingRight: 2,
+  paddingLeft: 5,
+  paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
@@ -49,10 +49,10 @@ const defaultCellStyle = {
   fontFamily: '"Source Sans Pro", sans-serif',
 };
 const typeCellStyle = {
-  width: '20%',
+  width: '19%',
   display: 'inline-block',
-  paddingLeft: 2,
-  paddingRight: 2,
+  paddingLeft: 5,
+  paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
@@ -67,8 +67,8 @@ const typeCellStyle = {
 const descriptionCellStyle = {
   width: '29%',
   display: 'inline-block',
-  paddingLeft: 2,
-  paddingRight: 2,
+  paddingLeft: 5,
+  paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
