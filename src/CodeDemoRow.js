@@ -100,7 +100,7 @@ const getResultBySnippet = (type, snippet) => {
   }
 }
 
-const createPropDocStruc = (name, d, type, description) {
+const createPropDocStruc = (name, d, type, description) => {
   return {
     prop: name,
     propDefault: d,
