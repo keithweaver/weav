@@ -23,7 +23,6 @@ const headerCellStyle = {
   borderTopWidth: 1,
 };
 const nameCellStyle = {
-  width: '28%',
   display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
@@ -37,7 +36,6 @@ const nameCellStyle = {
   borderColor: '#d8d8d8',
 };
 const defaultCellStyle = {
-  width: '19%',
   display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
@@ -51,7 +49,6 @@ const defaultCellStyle = {
   borderColor: '#d8d8d8',
 };
 const typeCellStyle = {
-  width: '19%',
   display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
@@ -65,7 +62,6 @@ const typeCellStyle = {
   borderColor: '#d8d8d8',
 };
 const descriptionCellStyle = {
-  width: '29%',
   display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
