@@ -110,6 +110,7 @@ class CodeDemoRow extends Component {
         />
         <CodeDemoSnippet
           onChange={this.onSnippetChange}
+          snippet={snippet}
         />
       </div>
     );

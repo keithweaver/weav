@@ -6,13 +6,19 @@ import 'brace/theme/github';
 
 
 const CodeDemoSnippet = (props) => {
+  const {
+    snippet,
+    onChange,
+  } = props;
+
   return (
     <div>
       <AceEditor
         mode="javascript"
         theme="github"
-        onChange={props.onChange}
+        onChange={onChange}
         name="aceeditor_id"
+        value={snippet}
       />
     </div>
   );
