@@ -53,7 +53,12 @@ const findProps = (s) => {
   // <Textbox test={test} />
   //
   // so now after code above is test={test}
+  // Next lines removes spaces between foo={{ bar: demo }}
+  console.log('snippetStr0', snippetStr);
+  snippetStr = snippetStr.replace(/>\s+</g, '{}');
+  console.log('snippetStr1', snippetStr);
   snippetStr = snippetStr.split(/[\t?\s]+/);
+  console.log('snippetStr2', snippetStr);
   const snippets = _.compact(snippetStr);
 
   for (let i = 0; i < snippets.length; i += 1) {
