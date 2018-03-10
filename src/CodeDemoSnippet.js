@@ -11,6 +11,12 @@ const wrapperStyle = {
   paddingBottom: 20,
   paddingTop: 10,
 };
+const textStyle = {
+  fontSize: 14,
+  fontFamily: '"Source Sans Pro", sans-serif',
+  paddingBottom: 15,
+  color: '#A4A4A4',
+};
 
 
 const CodeDemoSnippet = (props) => {
@@ -23,6 +29,7 @@ const CodeDemoSnippet = (props) => {
     <div
       style={wrapperStyle}
     >
+      <p style={textStyle}>Try typing in some props below based on the docs for the component.</p>
       <AceEditor
         mode="javascript"
         theme="github"
