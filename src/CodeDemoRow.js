@@ -55,7 +55,7 @@ const findProps = (s) => {
   // so now after code above is test={test}
   // Next lines removes spaces between foo={{ bar: demo }}
   console.log('snippetStr0', snippetStr);
-  snippetStr = snippetStr.replace(/>\s+</g, '{}');
+  snippetStr = snippetStr.replace(/{\s+}/g, '{}');
   console.log('snippetStr1', snippetStr);
   snippetStr = snippetStr.split(/[\t?\s]+/);
   console.log('snippetStr2', snippetStr);
