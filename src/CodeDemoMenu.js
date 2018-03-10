@@ -18,7 +18,7 @@ const CodeDemoMenu = (props) => {
             uiComponent={uiComponent}
             onUIComponentChange={onUIComponentChange}
             width={itemWidth}
-            isSelected={(selected == uiComponent)}
+            isSelected={(selected === uiComponent)}
           />
         ))
       }

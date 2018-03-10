@@ -65,17 +65,29 @@ const findProps = (s) => {
     if (value.charAt(0) === "{") {
       value = value.substring(1);
     }
+
+    console.log('value1', value);
+
     if (value.charAt(value.length - 1) === "}") {
       value = value.substring(0, value.length - 1);
     }
+
+    console.log('value2', value);
+
 
     // Handles the case of foo="bar"
     if (value.charAt(0) === "\"") {
       value = value.substring(1);
     }
+
+    console.log('value3', value);
+
     if (value.charAt(value.length - 1) === "\"") {
       value = value.substring(0, value.length - 1);
     }
+
+    console.log('value4', value);
+
 
     props[key] = value;
   }
