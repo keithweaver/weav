@@ -11,6 +11,7 @@ const headerStyle = {
 };
 const tableStyle = {
   width: '100%',
+  display: 'table',
 };
 const tableHeaderStyle = {
   width: '100%',
@@ -23,7 +24,7 @@ const headerCellStyle = {
 };
 const nameCellStyle = {
   width: '28%',
-  display: 'inline-block',
+  display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
   paddingTop: 3,
@@ -37,7 +38,7 @@ const nameCellStyle = {
 };
 const defaultCellStyle = {
   width: '19%',
-  display: 'inline-block',
+  display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
   paddingTop: 3,
@@ -51,13 +52,13 @@ const defaultCellStyle = {
 };
 const typeCellStyle = {
   width: '19%',
-  display: 'inline-block',
+  display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
-  borderRightWidth: 1,
+  borderRightWidth: 0,
   borderLeftWidth: 0,
   borderTopWidth: 0,
   borderStyle: 'solid',
@@ -65,14 +66,14 @@ const typeCellStyle = {
 };
 const descriptionCellStyle = {
   width: '29%',
-  display: 'inline-block',
+  display: 'table-cell',
   paddingLeft: 5,
   paddingRight: 5,
   paddingTop: 3,
   paddingBottom: 3,
   borderBottomWidth: 1,
   borderRightWidth: 1,
-  borderLeftWidth: 0,
+  borderLeftWidth: 1,
   borderTopWidth: 0,
   borderStyle: 'solid',
   borderColor: '#d8d8d8',
@@ -119,7 +120,7 @@ const CodeDemoDocs = (props) => {
                         (opt.prop) ? (
                           opt.prop
                         ) : (
-                          <span />
+                          <span>&nbsp;</span>
                         )
                       }
                     </p>
@@ -130,7 +131,7 @@ const CodeDemoDocs = (props) => {
                         (opt.propDefault) ? (
                           opt.propDefault
                         ) : (
-                          <span />
+                          <span>&nbsp;</span>
                         )
                       }
                     </p>
@@ -141,7 +142,7 @@ const CodeDemoDocs = (props) => {
                         (opt.propType) ? (
                           opt.propType
                         ) : (
-                          <span />
+                          <span>&nbsp;</span>
                         )
                       }
                     </p>
@@ -152,7 +153,7 @@ const CodeDemoDocs = (props) => {
                         (opt.description) ? (
                           opt.description
                         ) : (
-                          <span />
+                          <span>&nbsp;</span>
                         )
                       }
                     </p>
