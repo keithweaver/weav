@@ -29,7 +29,7 @@ const CodeDemoMenuItem = (props) => {
       onClick={() => onUIComponentChange(uiComponent)}
       style={objectAssign({}, btnStyle, { width: `${width}%` })}
     >
-      {uiComponent}
+      {uiComponent.toUpperCase()}
     </button>
   );
 }
