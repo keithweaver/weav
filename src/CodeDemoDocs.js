@@ -117,7 +117,7 @@ const CodeDemoDocs = (props) => {
                       (opt.prop) ? (
                         opt.prop
                       ) : (
-                        &nbsp;
+                        <span />
                       )
                     }
                   </div>
@@ -126,7 +126,7 @@ const CodeDemoDocs = (props) => {
                       (opt.propDefault) ? (
                         opt.propDefault
                       ) : (
-                        &nbsp;
+                        <span />
                       )
                     }
                   </div>
@@ -135,7 +135,7 @@ const CodeDemoDocs = (props) => {
                       (opt.propType) ? (
                         opt.propType
                       ) : (
-                        &nbsp;
+                        <span />
                       )
                     }
                   </div>
@@ -144,7 +144,7 @@ const CodeDemoDocs = (props) => {
                       (opt.description) ? (
                         opt.description
                       ) : (
-                        &nbsp;
+                        <span />
                       )
                     }
                   </div>
