@@ -36,9 +36,9 @@ const uiComponentInfo = {
 };
 
 const findProps = (s) => {
-  let snippet = _.replace(s, /<Textbox/g, '');
-  snippet = _.replace(snippet, /\/>/g, '');
-  snippet = _.replace(snippet, /\n/g, '');
+  let snippetStr = _.replace(s, /<Textbox/g, '');
+  snippetStr = _.replace(snippetStr, /\/>/g, '');
+  snippetStr = _.replace(snippetStr, /\n/g, '');
 
   const props = {};
   // Issue is you may have:
@@ -51,9 +51,20 @@ const findProps = (s) => {
   // <Textbox test={test} />
   //
   // so now after code above is test={test}
-  snippet = snippet.split(/[\t?\s]+/);
-  snippet = _.compact(snippet);
-  console.log('snippet', snippet);
+  snippetStr = snippetStr.split(/[\t?\s]+/);
+  const snippets = _.compact(snippetStr);
+  console.log('snippets', snippets);
+
+  for (let i = 0; i < snippets.length; i += 1) {
+    const snippet = snippets[i];
+    const posEquals = snippet.indexOf('=');
+    const key = snippet.substring(0, posEquals);
+    const value = snippet.substring(posEquals + 1);
+
+    props[key] = value;
+  }
+
+  console.log('props', props);
 
   return props;
 }
