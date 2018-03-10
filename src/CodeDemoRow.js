@@ -61,18 +61,18 @@ const findProps = (s) => {
     const key = snippet.substring(0, posEquals);
     let value = snippet.substring(posEquals + 1);
     // Handles the case of foo={test} or foo={"bar"}
-    if (value.charAt(0) == "{") {
+    if (value.charAt(0) === "{") {
       value = value.substring(1);
     }
-    if (value.charAt(value.length - 1) == "}") {
+    if (value.charAt(value.length - 1) === "}") {
       value = value.substring(0, value.length - 1);
     }
 
     // Handles the case of foo="bar"
-    if (value.charAt(0) == "\"") {
+    if (value.charAt(0) === "\"") {
       value = value.substring(1);
     }
-    if (value.charAt(value.length - 1) == "\"") {
+    if (value.charAt(value.length - 1) === "\"") {
       value = value.substring(0, value.length - 1);
     }
 

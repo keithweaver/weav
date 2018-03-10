@@ -4,6 +4,10 @@ import AceEditor from 'react-ace';
 import 'brace/mode/java';
 import 'brace/theme/github';
 
+const wrapperStyle = {
+  width: '100%',
+};
+
 
 const CodeDemoSnippet = (props) => {
   const {
@@ -12,7 +16,9 @@ const CodeDemoSnippet = (props) => {
   } = props;
 
   return (
-    <div>
+    <div
+      style={wrapperStyle}
+    >
       <AceEditor
         mode="javascript"
         theme="github"
@@ -22,6 +28,10 @@ const CodeDemoSnippet = (props) => {
         showLineNumbers={false}
         fontSize={14}
         showGutter={false}
+        highlightActiveLine={false}
+        style={{
+          width: '100%',
+        }}
       />
     </div>
   );
