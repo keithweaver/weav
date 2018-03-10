@@ -1,4 +1,5 @@
 import React from 'react';
+import objectAssign from 'object-assign';
 
 const wrapperStyle = {
   width: '100%',
@@ -6,6 +7,7 @@ const wrapperStyle = {
 const headerStyle = {
   fontFamily: '"Poppins", sans-serif',
   fontSize: 24,
+  paddingBottom: 15,
 };
 const tableStyle = {
   width: '100%',
