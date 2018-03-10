@@ -76,3 +76,5 @@ const CodeDemoDocs = (props) => {
     </div>
   );
 }
+
+export default CodeDemoDocs;
