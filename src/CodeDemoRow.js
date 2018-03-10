@@ -57,7 +57,9 @@ const findProps = (s) => {
   console.log('snippetStr0', snippetStr);
   // snippetStr = snippetStr.replace(/{+\s+}/g, '{}');
   // snippetStr = snippetStr.replace(/{^\s+|\s+}/g, '{}')
-  snippetStr = snippetStr.replace(/\s+(?={^{\}}*\})/g, '');
+  // snippetStr = snippetStr.replace(/\s+(?={^{\}}*\})/g, '');
+  // (?<=\()\s+(?=t)
+  snippetStr = snippetStr.replace(/(?<=\{\s+(?=})/g, '');
   console.log('snippetStr1', snippetStr);
   snippetStr = snippetStr.split(/[\t?\s]+/);
   console.log('snippetStr2', snippetStr);
