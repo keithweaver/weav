@@ -11,13 +11,14 @@ const headerStyle = {
 };
 const tableStyle = {
   width: '100%',
-  display: 'table',
 };
 const tableHeaderStyle = {
   width: '100%',
+  display: 'table',
 };
 const tableRowStyle = {
   width: '100%',
+  display: 'table',
 };
 const headerCellStyle = {
   borderTopWidth: 1,
