@@ -100,10 +100,10 @@ const getResultBySnippet = (type, snippet) => {
   }
 }
 
-const createPropDocStruc = (name, default, type, description) {
+const createPropDocStruc = (name, d, type, description) {
   return {
     prop: name,
-    default,
+    propDefault: d,
     propType: type,
     description,
   };
@@ -182,6 +182,7 @@ class CodeDemoRow extends Component {
           <CodeDemoMenu
             uiComponents={uiComponents}
             onUIComponentChange={this.onUIComponentChange}
+            selected={uiComponent}
           />
         </div>
         {content}

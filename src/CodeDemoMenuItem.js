@@ -6,7 +6,6 @@ const btnStyle = {
   borderRightWidth: 0,
   borderTopWidth: 0,
   borderBottomWidth: 3,
-  borderColor: '#31B404',
   paddingTop: 10,
   paddingBottom: 5,
   paddingLeft: 15,
@@ -20,14 +19,22 @@ const CodeDemoMenuItem = (props) => {
     uiComponent,
     onUIComponentChange,
     width,
+    isSelected,
   } = props;
 
-  console.log('width', width);
+  let borderColorStyle = {
+    borderColor: '#F1F1F1',
+  };
+  if (isSelected) {
+    borderColorStyle = {
+      borderColor: '#31B404',
+    };
+  }
 
   return (
     <button
       onClick={() => onUIComponentChange(uiComponent)}
-      style={objectAssign({}, btnStyle, { width: `${width}%` })}
+      style={objectAssign({}, btnStyle, { width: `${width}%` }, borderColorStyle)}
     >
       {uiComponent.toUpperCase()}
     </button>

@@ -57,7 +57,7 @@ const CodeDemoDocs = (props) => {
                     {opt.prop}
                   </div>
                   <div style={defaultCellStyle}>
-                    {opt.default}
+                    {opt.propDefault}
                   </div>
                   <div style={typeCellStyle}>
                     {opt.propType}

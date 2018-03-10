@@ -6,6 +6,7 @@ const CodeDemoMenu = (props) => {
   const {
     uiComponents,
     onUIComponentChange,
+    selected,
   } = props;
   const itemWidth = 100 / uiComponents.length;
 
@@ -17,6 +18,7 @@ const CodeDemoMenu = (props) => {
             uiComponent={uiComponent}
             onUIComponentChange={onUIComponentChange}
             width={itemWidth}
+            isSelected={(selected == uiComponent)}
           />
         ))
       }
