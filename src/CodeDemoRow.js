@@ -61,6 +61,8 @@ const findProps = (s) => {
     const posEquals = snippet.indexOf('=');
     const key = snippet.substring(0, posEquals);
     let value = snippet.substring(posEquals + 1);
+
+    console.log('value0', value);
     // Handles the case of foo={test} or foo={"bar"}
     if (value.charAt(0) === "{") {
       value = value.substring(1);
