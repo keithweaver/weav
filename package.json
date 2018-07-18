@@ -1,6 +1,6 @@
 {
   "name": "weav",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React components used for quicker UI development.",
   "main": "build/index.js",
   "scripts": {
